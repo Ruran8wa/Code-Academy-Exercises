@@ -1,11 +1,21 @@
 namespace Code_Academy_Exercises.Data_Types;
 
-public class Variable_Types
+public class VariableTypes
 {
     static void Main(string[] args)
     {
+        // Create Variables
         string name = "Shadow";
         string breed = "Golden Retriever";
-        Console.WriteLine($"The dog's name is {name}, and it's breed is {breed}");
+        int age = 5;
+        double weight = 65.22;
+        bool spayed = true;
+
+        // Print variables to the console
+        Console.WriteLine(name);
+        Console.WriteLine(breed);
+        Console.WriteLine(age);
+        Console.WriteLine(weight);
+        Console.WriteLine(spayed);
     }
 }
